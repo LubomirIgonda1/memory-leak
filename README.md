@@ -1,7 +1,6 @@
 # Jest Memory Leak
 
-There is a memory leak in test runner that causes the heap to grow monotonically by 2MB - 3MB for each test file.
-It seems like the initial regression was introduced between versions `22.4.4` and `23.1.0` (`jest-circus` threw errors on each version I tried between the two).
+In this repo is memory leak in test runner. That cause the heap grow up by 1MB - 2MB for each test file. I've used Jest version 24.0.18.
 
 ### Jest `v24.0.18` (memory leak)
 
